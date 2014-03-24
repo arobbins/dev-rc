@@ -6,4 +6,4 @@ File Descriptions
 -----------------
 | Name | Description 								|
 | --------------- | ----------- |
-| '.bashrc'			| When an interactive shell that is not a login shell is started, bash reads and executes commands from ~/.bashrc |
+| `.bashrc`			| When an interactive shell that is not a login shell is started, bash reads and executes commands from ~/.bashrc |

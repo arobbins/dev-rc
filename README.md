@@ -1,6 +1,6 @@
 A Personal Frontend Taxonomy
 ============================
-This repository documents my journey of becoming an expert at my craft. Everything from definitions, file descriptions, language concepts, and 3rd party resources are listed here. I document everything that I've found to be confusing, helpful, and interesting to further my knowledge of web development. Hopefully you'll find it useful too =)
+> This repository documents my journey of becoming an expert at my craft. I plan to document everything that I've found to be confusing, helpful, and interesting. Hopefully you'll find it useful too =)
 
 ## File Descriptions
 #### `.bashrc` & `.bash_profile`

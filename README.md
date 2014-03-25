@@ -15,6 +15,9 @@ if [ -f ~/.bashrc ]; then
 fi
 ```
 
+#### `.DS_Store`
+The .DS_Store (Desktop Services Store) file keeps custom attributes of a folder such as the position of icons or the choice of a background image.
+
 ## Unix Commands
 #### `wget`
 GNU Wget is a free utility for non-interactive download of files from the Web. It supports HTTP, HTTPS, and FTP protocols, as well as retrieval through HTTP proxies.

@@ -3,11 +3,13 @@ A Personal Frontend Taxonomy
 This repository documents my journey of becoming an expert at my craft. Everything from definitions, file descriptions, language concepts, and 3rd party resources are listed here. I document everything that I've found to be confusing, helpful, and interesting to further my knowledge of web development. Hopefully you'll find it useful too =)
 
 ## File Descriptions
-`.bashrc` & `.bash_profile`  On OS X, when you open a new terminal window it logs the user into a new bash shell. Upon login, bash will first read the file `/etc/profile` for root level commands. Then bash will go to your home directory `~/` and read the following four files in the order in which they're found: `~/.bash_profile`, `~/.bash_login`, `~/.profile`, `~/.login`. For example, if you don't have a `.bash_profile` in your home directory, bash will then try to find `.bash_login`, and then `.profile`, etc.
+#### `.bashrc` & `.bash_profile`
+
+On OS X, when you open a new terminal window it logs the user into a new bash shell. Upon login, bash will first read the file `/etc/profile` for root level commands. Then bash will go to your home directory `~/` and read the following four files in the order in which they're found: `~/.bash_profile`, `~/.bash_login`, `~/.profile`, `~/.login`. For example, if you don't have a `.bash_profile` in your home directory, bash will then try to find `.bash_login`, and then `.profile`, etc.
 
 After opening a new terminal window, any additional windows are opened in a new bash *subshell*. Bash will then attempt to find `~/.bashrc` for the commands it needs. Additionally, after logging out of a Bash shell `~/.bash_logout` is run.
 
-To handle the discrepency between the login shell and the non-login shell, put the following in `~/.bash_profile`:
+To handle the discrepency between the login shell and the non-login shell, put the following in `~/.bash_profile`
 ```
 if [ -f ~/.bashrc ]; then
 	source ~/.bashrc

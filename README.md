@@ -20,7 +20,7 @@ fi
 GNU Wget is a free utility for non-interactive download of files from the Web. It supports HTTP, HTTPS, and FTP protocols, as well as retrieval through HTTP proxies.
 
 ## Definitions
-#### Bash
+#### `Bash`
 Bash (Bourne Again SHell) is the default shell on OSX and Linux.
 
 ## How tos

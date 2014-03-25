@@ -29,6 +29,8 @@ Bash (Bourne Again SHell) is the default shell on OSX and Linux.
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lines)  
 Single line breaks are created by ending a line with two or more spaces
 
+*****
+
 #### Adding SSH access to your Github account
 This assumes you have an SSH key generated already on your local machine. If not, follow [this tutorial](http://git-scm.com/book/en/Git-on-the-Server-Generating-Your-SSH-Public-Key). Also assumes you're on a *nix based OS.
 

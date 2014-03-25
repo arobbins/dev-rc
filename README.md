@@ -15,6 +15,9 @@ This repository documents my journey of becoming an expert at my craft. Everythi
 ### How tos
 **Adding SSH access to your Github account**
 This assumes you have an SSH key generated already on your local machine. If not, follow [this tutorial](http://git-scm.com/book/en/Git-on-the-Server-Generating-Your-SSH-Public-Key). Also assumes you're on a *nix based OS.
+
 1. `cd ~/.ssh`
+
 2. `pbcopy < ~/.ssh/id_rsa.pub`
+
 3. Now paste it to your Github account

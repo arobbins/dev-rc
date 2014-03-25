@@ -13,8 +13,9 @@ This repository documents my journey of becoming an expert at my craft. Everythi
 | `wget`			| GNU Wget is a free utility for non-interactive download of files from the Web. It supports HTTP, HTTPS, and FTP protocols, as well as retrieval through HTTP proxies.
 
 ### How tos
-Adding SSH access to your Github account
-`cd ~/.ssh`
-`pbcopy < ~/.ssh/id_rsa.pub`
+#### Adding SSH access to your Github account
+This assumes you have an SSH key generated already on your local machine. If not, follow this tutorial: http://git-scm.com/book/en/Git-on-the-Server-Generating-Your-SSH-Public-Key
+```cd ~/.ssh```
+```pbcopy < ~/.ssh/id_rsa.pub```
 Now add it to your Github account
 

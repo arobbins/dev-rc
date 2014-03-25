@@ -15,8 +15,6 @@ if [ -f ~/.bashrc ]; then
 fi
 ```
 
-*****
-
 #### `.DS_Store`
 The .DS_Store (Desktop Services Store) file keeps custom attributes of a folder such as the position of icons or the choice of a background image.
 

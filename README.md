@@ -39,4 +39,8 @@ This assumes you have an SSH key generated already on your local machine. If not
 
 * `cd ~/.ssh`  
 * `pbcopy < ~/.ssh/id_rsa.pub`  
-* Now paste it to your Github account  
+* Now paste it to your Github account
+
+#### Associating Text Editors with Git
+`git config --global core.editor "subl -n -w"`  
+https://help.github.com/articles/associating-text-editors-with-git

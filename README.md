@@ -26,6 +26,10 @@ GNU Wget is a free utility for non-interactive download of files from the Web. I
 #### `Bash`
 Bash (Bourne Again SHell) is the default shell on OSX and Linux.
 
+*****
+#### Asynchronous
+A client (browser) can request new pieces of information from a server at anytime without needing a page reload. This request can be event driven (clicking on a button or hovering over an image for example).
+
 ## How tos
 #### Markdown formatting
 [Markdown Basics](http://markdown-guide.readthedocs.org/en/latest/basics.html)

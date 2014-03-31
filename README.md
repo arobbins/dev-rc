@@ -28,8 +28,8 @@ Bash (Bourne Again SHell) is the default shell on OSX and Linux.
 
 ## How tos
 #### Markdown formatting
-[Markdown Basics](http://markdown-guide.readthedocs.org/en/latest/basics.html)  
-[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lines)  
+[Markdown Basics](http://markdown-guide.readthedocs.org/en/latest/basics.html)
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lines)
 Single line breaks are created by ending a line with two or more spaces
 
 *****
@@ -37,13 +37,23 @@ Single line breaks are created by ending a line with two or more spaces
 #### Adding SSH access to your Github account
 This assumes you have an SSH key generated already on your local machine. If not, follow [this tutorial](http://git-scm.com/book/en/Git-on-the-Server-Generating-Your-SSH-Public-Key). Also assumes you're on a *nix based OS.
 
-* `cd ~/.ssh`  
-* `pbcopy < ~/.ssh/id_rsa.pub`  
+* `cd ~/.ssh`
+* `pbcopy < ~/.ssh/id_rsa.pub`
 * Now paste it to your Github account
 
 *****
 
 #### Associating Text Editors with Git
-`git config --global core.editor "subl -n -w"`  
+`git config --global core.editor "subl -n -w"`
 
 https://help.github.com/articles/associating-text-editors-with-git
+
+## CSS Reminders
+#### Reseting the box model using box-sizing reset
+``` css
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+```
+http://www.paulirish.com/2012/box-sizing-border-box-ftw

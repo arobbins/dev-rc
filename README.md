@@ -26,7 +26,6 @@ GNU Wget is a free utility for non-interactive download of files from the Web. I
 #### Bash
 Bash (Bourne Again SHell) is the default shell on OSX and Linux.
 
-*****
 #### Asynchronous
 A client (browser) can request new pieces of information from a server at anytime without needing a page reload. This request can be event driven (clicking on a button or hovering over an image for example).
 
@@ -36,7 +35,6 @@ A client (browser) can request new pieces of information from a server at anytim
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lines)
 Single line breaks are created by ending a line with two or more spaces
 
-*****
 
 #### Adding SSH access to your Github account
 This assumes you have an SSH key generated already on your local machine. If not, follow [this tutorial](http://git-scm.com/book/en/Git-on-the-Server-Generating-Your-SSH-Public-Key). Also assumes you're on a *nix based OS.
@@ -45,7 +43,6 @@ This assumes you have an SSH key generated already on your local machine. If not
 * `pbcopy < ~/.ssh/id_rsa.pub`
 * Now paste it to your Github account
 
-*****
 
 #### Associating Text Editors with Git
 `git config --global core.editor "subl -n -w"`
@@ -62,7 +59,6 @@ https://help.github.com/articles/associating-text-editors-with-git
 ```
 http://www.paulirish.com/2012/box-sizing-border-box-ftw
 
-*****
 
 #### WTF, HTML and CSS?
 http://wtfhtmlcss.com

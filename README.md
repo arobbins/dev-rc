@@ -62,3 +62,6 @@ http://www.paulirish.com/2012/box-sizing-border-box-ftw
 
 #### WTF, HTML and CSS?
 http://wtfhtmlcss.com
+
+## NPM
+`--save-dev` updates package.json

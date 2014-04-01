@@ -30,7 +30,7 @@ Bash (Bourne Again SHell) is the default shell on OSX and Linux.
 A client (browser) can request new pieces of information from a server at anytime without needing a page reload. This request can be event driven (clicking on a button or hovering over an image for example).
 
 #### XMLHttpRequest
-XMLHttpRequest (XHR) is a JavaScript object that is used heavily in AJAX programming. XHR can retireve more than just XML&mdash;for example, JSON, file, and ftp.
+XMLHttpRequest (XHR) is a JavaScript object that is used heavily in AJAX programming. XHR can retireve more than just XML&mdash;for example, JSON, file, and ftp. https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
 
 #### AJAX
 AJAX stands for Asynchronous JavaScript and XML

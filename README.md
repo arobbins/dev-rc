@@ -1,5 +1,5 @@
-A Personal Frontend Taxonomy
-============================
+An Autodidact's Frontend Taxonomy
+=================================
 > This repository documents my journey of becoming an expert at my craft. I plan to document everything that I've found to be confusing, helpful, and interesting. Hopefully you'll find it useful too =)
 
 ## File Descriptions
@@ -28,6 +28,13 @@ Bash (Bourne Again SHell) is the default shell on OSX and Linux.
 
 #### Asynchronous
 A client (browser) can request new pieces of information from a server at anytime without needing a page reload. This request can be event driven (clicking on a button or hovering over an image for example).
+
+#### XMLHttpRequest
+XMLHttpRequest (XHR) is a JavaScript object that is used heavily in AJAX programming. XHR can retireve more than just XML&mdash;for example, JSON, file, and ftp.
+
+#### AJAX
+AJAX stands for Asynchronous JavaScript and XML
+
 
 ## How tos
 #### Markdown formatting
@@ -58,7 +65,6 @@ https://help.github.com/articles/associating-text-editors-with-git
  }
 ```
 http://www.paulirish.com/2012/box-sizing-border-box-ftw
-
 
 #### WTF, HTML and CSS?
 http://wtfhtmlcss.com

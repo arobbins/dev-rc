@@ -27,10 +27,12 @@ GNU Wget is a free utility for non-interactive download of files from the Web. I
 Bash (Bourne Again SHell) is the default shell on OSX and Linux.
 
 #### Asynchronous
-A client (browser) can request new pieces of information from a server at anytime without needing a page reload. This request can be event driven (clicking on a button or hovering over an image for example).
+A client (browser) can request new pieces of information from a server at anytime without needing a page reload. This request can be event driven (clicking on a button or hovering over an image for example). Not occurring at the same time.
 
 #### XMLHttpRequest
 XMLHttpRequest (XHR) is a JavaScript object that is used heavily in AJAX programming. XHR can retireve more than just XML&mdash;for example, JSON, file, and ftp. https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
+
+	
 
 #### AJAX
 AJAX stands for Asynchronous JavaScript and XML

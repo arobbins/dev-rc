@@ -71,3 +71,13 @@ http://wtfhtmlcss.com
 
 ## NPM
 `--save-dev` updates package.json
+
+## HTTP Status Codes
+Code  | Status
+----- | -------------
+200	| Ok
+404	| Forbidden
+404	| Not found
+500	| Internal Server Error
+
+http://httpstat.us

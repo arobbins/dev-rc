@@ -1,4 +1,4 @@
-An Autodidact's Frontend Taxonomy
+A personal Frontend Taxonomy
 =================================
 > This repository documents my journey of becoming an expert at my craft. I plan to document everything that I've found to be confusing, helpful, and interesting. Hopefully you'll find it useful too =)
 

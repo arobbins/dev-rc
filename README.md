@@ -32,18 +32,17 @@ A client (browser) can request new pieces of information from a server at anytim
 #### XMLHttpRequest
 XMLHttpRequest (XHR) is a JavaScript object that is used in AJAX programming. XHR can retrieve more than just XML. For example, JSON, file, and ftp. https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest. The XHR object contains methods that are used to make HTTP requests. The common methods are:
 
-readyState
-The state of the request:
-0	UNSENT	open()has not been called yet.
-1	OPENED	send()has not been called yet.
-2	HEADERS_RECEIVED	send() has been called, and headers and status are available.
-3	LOADING	Downloading; responseText holds partial data.
-4	DONE	The operation is complete.
+readyState (the state of the request)  
+0	UNSENT	open()has not been called yet.  
+1	OPENED	send()has not been called yet.  
+2	HEADERS_RECEIVED	send() has been called, and headers and status are available.  
+3	LOADING	Downloading; responseText holds partial data.  
+4	DONE	The operation is complete.  
 
-onreadystatechange
+onreadystatechange  
 A JavaScript function object that is called whenever the readyState attribute changes. The callback is called from the user interface thread.
 
-responseText
+responseText  
 The response to the request as text, or null if the request was unsuccessful or has not yet been sent.
 
 Object properties  | Definition

@@ -1,4 +1,4 @@
-An Autodidact's Frontend Taxonomy
+A personal Frontend Taxonomy
 =================================
 > This repository documents my journey of becoming an expert at my craft. I plan to document everything that I've found to be confusing, helpful, and interesting. Hopefully you'll find it useful too =)
 
@@ -30,7 +30,7 @@ Bash (Bourne Again SHell) is the default shell on OSX and Linux.
 A client (browser) can request new pieces of information from a server at anytime without needing a page reload. This request can be event driven (clicking on a button or hovering over an image for example). Not occurring at the same time.
 
 #### XMLHttpRequest
-XMLHttpRequest (XHR) is a JavaScript object that is used heavily in AJAX programming. XHR can retireve more than just XML&mdash;for example, JSON, file, and ftp. https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
+XMLHttpRequest (XHR) is a JavaScript object that is used in AJAX programming. XHR can retrieve more than just XML. For example, JSON, file, and ftp. https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest. The XHR object contains methods that are used to make HTTP requests. The common methods are:
 
 readyState
 The state of the request:
@@ -46,6 +46,13 @@ A JavaScript function object that is called whenever the readyState attribute ch
 responseText
 The response to the request as text, or null if the request was unsuccessful or has not yet been sent.
 
+Object properties  | Definition
+:----------------- | :-------------
+onreadystatechange | A JavaScript function object that is called whenever the readyState attribute changes. The callback is called from the user interface thread.
+readyState			 | Indicates the state of the request. The value is a number between 0-4. 0 = UNSENT, 1 = OPENED, 2 = HEADERS_RECEIVED, 3 = LOADING, 4 = DONE.
+responseText		 | The response to the request as text, or null if the request was unsuccessful or has not yet been sent.
+status 				 | The status of the response to the request. This is the HTTP result code (for example, status is 200 for a successful request).
+
 #### AJAX
 Asynchronous JavaScript and XML
 
@@ -55,7 +62,6 @@ ulimit is a *nix preference that limits system resources started by the shell it
 
 http://stackoverflow.com/questions/5256599/what-are-file-descriptors-explained-in-simple-terms  
 http://ss64.com/bash/ulimit.html
-
 
 ## How tos
 #### Markdown formatting

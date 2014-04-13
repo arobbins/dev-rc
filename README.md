@@ -32,17 +32,17 @@ A client (browser) can request new pieces of information from a server at anytim
 #### XMLHttpRequest
 XMLHttpRequest (XHR) is a JavaScript object that is used in AJAX programming. XHR can retrieve more than just XML. For example, JSON, file, and ftp. https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest. The XHR object contains methods that are used to make HTTP requests. The common methods are:
 
-readyState (the state of the request)  
-0	UNSENT	open()has not been called yet.  
-1	OPENED	send()has not been called yet.  
-2	HEADERS_RECEIVED	send() has been called, and headers and status are available.  
-3	LOADING	Downloading; responseText holds partial data.  
-4	DONE	The operation is complete.  
+readyState (the state of the request)
+0	UNSENT	open()has not been called yet.
+1	OPENED	send()has not been called yet.
+2	HEADERS_RECEIVED	send() has been called, and headers and status are available.
+3	LOADING	Downloading; responseText holds partial data.
+4	DONE	The operation is complete.
 
-onreadystatechange  
+onreadystatechange
 A JavaScript function object that is called whenever the readyState attribute changes. The callback is called from the user interface thread.
 
-responseText  
+responseText
 The response to the request as text, or null if the request was unsuccessful or has not yet been sent.
 
 Object properties  | Definition
@@ -55,17 +55,17 @@ status 				 | The status of the response to the request. This is the HTTP result
 #### AJAX
 Asynchronous JavaScript and XML
 
-#### ulimit 
-ulimit is a *nix preference that limits system resources started by the shell itself. The `-n` flag describes how many file descriptors can be opened at once.  
-> "In simple words, when you open a file, the operating system creates an entry to represent that file and store the information about that opened file. So if there are 100 files opened in your OS then there will be 100 entries in OS (somewhere in kernel). These entries are represented by integers like (...100, 101, 102....). This entry number is the file descriptor. So it is just an integer number that uniquely represents an opened file in operating system. If your process open 10 files then your Process table will have 10 entries for file descriptors. Similarly when you open a network socket, it is also represented by an integer and it is called Socket Descriptor."  
+#### ulimit
+ulimit is a *nix preference that limits system resources started by the shell itself. The `-n` flag describes how many file descriptors can be opened at once.
+> "In simple words, when you open a file, the operating system creates an entry to represent that file and store the information about that opened file. So if there are 100 files opened in your OS then there will be 100 entries in OS (somewhere in kernel). These entries are represented by integers like (...100, 101, 102....). This entry number is the file descriptor. So it is just an integer number that uniquely represents an opened file in operating system. If your process open 10 files then your Process table will have 10 entries for file descriptors. Similarly when you open a network socket, it is also represented by an integer and it is called Socket Descriptor."
 
-http://stackoverflow.com/questions/5256599/what-are-file-descriptors-explained-in-simple-terms  
+http://stackoverflow.com/questions/5256599/what-are-file-descriptors-explained-in-simple-terms
 http://ss64.com/bash/ulimit.html
 
 ## How tos
 #### Markdown formatting
-[Markdown Basics](http://markdown-guide.readthedocs.org/en/latest/basics.html)  
-[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lines)  
+[Markdown Basics](http://markdown-guide.readthedocs.org/en/latest/basics.html)
+[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lines)
 Single line breaks are created by ending a line with two or more spaces
 
 
@@ -79,8 +79,10 @@ This assumes you have an SSH key generated already on your local machine. If not
 
 #### Associating Text Editors with Git
 `git config --global core.editor "subl -n -w"`
-
 https://help.github.com/articles/associating-text-editors-with-git
+
+#### Less verbose git status message
+`git status -sb`
 
 ## CSS Reminders
 #### Reseting the box model using box-sizing reset

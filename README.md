@@ -112,3 +112,6 @@ Code  | Status
 500	| Internal Server Error
 
 http://httpstat.us
+
+## Inspiring links
+- http://ejohn.org/blog/write-code-every-day

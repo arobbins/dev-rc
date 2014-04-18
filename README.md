@@ -84,6 +84,9 @@ https://help.github.com/articles/associating-text-editors-with-git
 #### Less verbose git status message
 `git status -sb`
 
+#### Mass find and move of files within unix
+`sudo find /Volumes/Expansion\ Drive/Reason\ Refills -iname "*rhode*" -type f -exec /bin/mv {} /dump/rhodes \;`
+
 ## CSS Reminders
 #### Reseting the box model using box-sizing reset
 ``` css

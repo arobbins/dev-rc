@@ -114,4 +114,8 @@ Code  | Status
 http://httpstat.us
 
 ## Inspiring links
-- http://ejohn.org/blog/write-code-every-day
+- http://ejohn.org/blog/write-code-every-day (Writing code everyday)
+- http://toddmotto.com/mastering-the-module-pattern (JS Module pattern)
+- http://www.bobholt.me/2012/08/using-the-revealing-module-pattern (JS Module pattern)
+- http://carldanley.com/js-revealing-module-pattern (JS Module pattern)
+- https://www.interviewcake.com/tips-and-tricks (Interview techniques)

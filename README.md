@@ -20,7 +20,7 @@ The .DS_Store (Desktop Services Store) file keeps custom attributes of a folder 
 
 ## Unix Commands
 #### `wget`
-GNU Wget is a free utility for non-interactive download of files from the Web. It supports HTTP, HTTPS, and FTP protocols, as well as retrieval through HTTP proxies.
+GNU Wget is a free utility for non-interactive download of files from the Web. It supports HTTP, HTTPS, and FTP protocols, as well as retrieval through HTTP proxies. (Note: add -c flag to resume a broken download).
 
 ## Definitions
 #### Bash

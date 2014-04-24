@@ -87,6 +87,9 @@ https://help.github.com/articles/associating-text-editors-with-git
 #### Mass find and move of files within unix
 `sudo find /Volumes/Expansion\ Drive/Reason\ Refills -iname "*rhode*" -type f -exec /bin/mv {} /dump/rhodes \;`
 
+#### Selecting only a certain amount of records in a SQL query
+`select top 10 * from`
+
 ## CSS Reminders
 #### Reseting the box model using box-sizing reset
 ``` css

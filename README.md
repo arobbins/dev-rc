@@ -90,6 +90,9 @@ https://help.github.com/articles/associating-text-editors-with-git
 #### Selecting only a certain amount of records in a SQL query
 `select top 10 * from`
 
+#### Flip Between Windows in Current Application
+```Command + ` ```
+
 ## CSS Reminders
 #### Reseting the box model using box-sizing reset
 ``` css

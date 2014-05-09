@@ -93,6 +93,18 @@ https://help.github.com/articles/associating-text-editors-with-git
 #### Flip Between Windows in Current Application
 ```Command + ` ```
 
+#### Vertically center anything
+``` css
+.parent-element {
+  -webkit-transform-style: preserve-3d;
+}
+.element {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+```
+
 ## CSS Reminders
 #### Reseting the box model using box-sizing reset
 ``` css

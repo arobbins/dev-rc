@@ -1,6 +1,6 @@
-A personal Frontend Taxonomy
+A Personal Front-end Taxonomy
 =================================
-> This repository documents my journey of becoming an expert at my craft. I plan to document everything that I've found to be confusing, helpful, and interesting. Hopefully you'll find it useful too =)
+> This repository documents my journey of becoming an expert at my craft. I'm planning to document everything that has been confusing, helpful, and interesting along the way!
 
 ## File Descriptions
 #### `.bashrc` & `.bash_profile`

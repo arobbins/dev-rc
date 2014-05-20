@@ -68,6 +68,15 @@ http://ss64.com/bash/ulimit.html
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lines)
 Single line breaks are created by ending a line with two or more spaces
 
+#### Installing Grunt
+In order to get started with Grunt, you first need to install the command within your system directory. To do this, install the grunt command-line interface below:
+
+`npm install -g grunt-cli`
+
+Once this the Grunt CLI is installed, make sure you have a companion package.json file in your project and you should be good to go.
+
+[Resource 1] (http://gruntjs.com/getting-started)
+[Resource 2] (https://frontendmasters.com/courses/workflows-and-tooling)
 
 #### Adding SSH access to your Github account
 This assumes you have an SSH key generated already on your local machine. If not, follow [this tutorial](http://git-scm.com/book/en/Git-on-the-Server-Generating-Your-SSH-Public-Key). Also assumes you're on a *nix based OS.

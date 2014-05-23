@@ -114,6 +114,16 @@ https://help.github.com/articles/associating-text-editors-with-git
 }
 ```
 
+#### Building and Installing Lua on Mac
+- http://www.lua.org/faq.html#1.1
+
+```
+curl -R -O http://www.lua.org/ftp/lua-5.2.3.tar.gz
+tar zxf lua-5.2.3.tar.gz
+cd lua-5.2.3
+make macosx test
+```
+
 ## CSS Reminders
 #### Reseting the box model using box-sizing reset
 ``` css

@@ -143,7 +143,7 @@ $scope.age = 26;
 Renders as:
 ``` js
 {
-	name: Andy
+	name: "Andrew"
 	age: 26
 }
 ```

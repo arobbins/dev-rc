@@ -135,7 +135,18 @@ make macosx test
 http://www.paulirish.com/2012/box-sizing-border-box-ftw
 
 ## Angular
-At its core, $scope is nothing more than a JavaScript object.
+At its core, $scope is nothing more than a JavaScript object. For example,
+``` js
+$scope.name = "Andrew";
+$scope.age = 26;
+```
+Renders as:
+``` js
+{
+	name: Andy
+	age: 26
+}
+```
 
 ## NPM
 `--save-dev` updates package.json

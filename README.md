@@ -134,8 +134,8 @@ make macosx test
 ```
 http://www.paulirish.com/2012/box-sizing-border-box-ftw
 
-#### WTF, HTML and CSS?
-http://wtfhtmlcss.com
+## Angular
+At its core, $scope is nothing more than a JavaScript object.
 
 ## NPM
 `--save-dev` updates package.json
@@ -170,6 +170,7 @@ http://httpstat.us
 
 ### CSS
 - http://alistapart.com/article/designing-for-breakpoints (Beyond breakpoints)
+- http://wtfhtmlcss.com (Common CSS Gotchas)
 
 ### HTTP / Web
 - http://www.corsproxy.com (CORS Proxy)

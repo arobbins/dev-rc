@@ -135,6 +135,8 @@ make macosx test
 http://www.paulirish.com/2012/box-sizing-border-box-ftw
 
 ## Angular
+
+### $scope
 At its core, $scope is nothing more than a JavaScript object. For example,
 ``` js
 $scope.name = "Andrew";
@@ -147,6 +149,9 @@ Renders as:
 	age: 26
 }
 ```
+### $inject
+The $inject property is a way in which you can inject your dependencies that minifiers will not break. It's similar to the array syntax when declaring your function parameters.
+
 
 ## NPM
 `--save-dev` updates package.json

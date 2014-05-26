@@ -159,11 +159,14 @@ http://httpstat.us
 - http://carldanley.com/js-revealing-module-pattern (JS Module pattern)
 - https://www.interviewcake.com/tips-and-tricks (Interview techniques)
 
-### JavaScript resources
+### JavaScript
 - http://juliepagano.com/blog/2014/05/18/javascript-debugging-for-beginners (Debugging for beginners)
 - https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/ch1.md (Scopes & Closure)
 - http://promises-aplus.github.io/promises-spec (Promises 1)
 - http://www.sitepoint.com/overview-javascript-promises (Promises 2)
+
+### Angular
+- https://www.udemy.com/angularjs-jumpstart/#/
 
 ### CSS
 - http://alistapart.com/article/designing-for-breakpoints (Beyond breakpoints)

@@ -144,6 +144,8 @@ Make sure to put the binary in /usr/local/bin. The binary can be found in /Appli
 - 3) Add new
 - 4) Type in "Zoom" for Menu Title
 
+#### Setting R+W permissions on a folder recursively
+`chmod -R 777 <folder> `
 
 ## CSS Reminders
 #### Reseting the box model using box-sizing reset

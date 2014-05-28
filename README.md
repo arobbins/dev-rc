@@ -133,6 +133,17 @@ Make sure to put the binary in /usr/local/bin. The binary can be found in /Appli
 
 ` pbcopy < ~/.ssh/id_rsa.pub `
 
+#### Hiding mini-map by default in Sublime
+- http://stackoverflow.com/questions/13877319/sublime-text-2-hide-minimap-by-default
+
+` "show_minimap": false `
+
+#### Adding custom keyboard shortcut to maximize current window on OSX
+- 1) System Preferences - Keyboard
+- 2) Shortcuts - App Shortcuts
+- 3) Add new
+- 4) Type in "Zoom" for Menu Title
+
 
 ## CSS Reminders
 #### Reseting the box model using box-sizing reset

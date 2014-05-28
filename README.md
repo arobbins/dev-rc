@@ -124,6 +124,12 @@ cd lua-5.2.3
 make macosx test
 ```
 
+#### Configuring the subl command
+- http://stackoverflow.com/questions/17733367/getting-sublimetext-to-run-from-terminal-in-mac
+
+Make sure to put the binary in /usr/local/bin. The binary can be found in /Applications/Sublime\ Text.app/Contents/SharedSupport/bin
+
+
 ## CSS Reminders
 #### Reseting the box model using box-sizing reset
 ``` css

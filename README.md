@@ -129,6 +129,10 @@ make macosx test
 
 Make sure to put the binary in /usr/local/bin. The binary can be found in /Applications/Sublime\ Text.app/Contents/SharedSupport/bin
 
+#### Copying SSH public key to clipboard
+
+` pbcopy < ~/.ssh/id_rsa.pub `
+
 
 ## CSS Reminders
 #### Reseting the box model using box-sizing reset

@@ -124,6 +124,23 @@ cd lua-5.2.3
 make macosx test
 ```
 
+## Classes In Javascript
+Classes don't natively exist in Javascript. However you can implement a Class-like architecture through the use of Constructor functions:
+
+```js
+function Person(name, age, location){
+	this.name = name;
+	this.age = age;
+	this.location = location;
+	this.motto = "Tu ne cede malis";
+	this.sayMotto = function(){
+		return alert(this.motto);
+	};
+};
+
+var Andy = new Person(Andy, 26, Minneapolis);
+```
+
 ## CSS Reminders
 #### Reseting the box model using box-sizing reset
 ``` css

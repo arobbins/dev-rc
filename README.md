@@ -141,6 +141,29 @@ function Person(name, age, location){
 var Andy = new Person(Andy, 26, Minneapolis);
 ```
 
+#### Configuring the subl command
+- http://stackoverflow.com/questions/17733367/getting-sublimetext-to-run-from-terminal-in-mac
+
+Make sure to put the binary in /usr/local/bin. The binary can be found in /Applications/Sublime\ Text.app/Contents/SharedSupport/bin
+
+#### Copying SSH public key to clipboard
+
+` pbcopy < ~/.ssh/id_rsa.pub `
+
+#### Hiding mini-map by default in Sublime
+- http://stackoverflow.com/questions/13877319/sublime-text-2-hide-minimap-by-default
+
+` "show_minimap": false `
+
+#### Adding custom keyboard shortcut to maximize current window on OSX
+- 1) System Preferences - Keyboard
+- 2) Shortcuts - App Shortcuts
+- 3) Add new
+- 4) Type in "Zoom" for Menu Title
+
+#### Setting R+W permissions on a folder recursively
+`chmod -R 777 <folder> `
+
 ## CSS Reminders
 #### Reseting the box model using box-sizing reset
 ``` css

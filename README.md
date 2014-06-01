@@ -124,7 +124,7 @@ cd lua-5.2.3
 make macosx test
 ```
 
-#### Classes In Javascript
+#### Classes, Prototypes, and Inheritance In Javascript
 Classes don't natively exist in Javascript. However you can implement a Class-like architecture through the use of Constructor functions:
 
 ```js
@@ -137,9 +137,29 @@ function Person(name, age, location){
 		return alert(this.motto);
 	};
 };
-
-var Andy = new Person(Andy, 26, Minneapolis);
+var andy = new Person("Andy", 26, "Minneapolis");
+andy.sayMotto();
 ```
+
+All objects in Javascript have a prototype object. The prototype object is a semi-hidden property sometimes seen in browsers as `__proto__`.
+
+We can be more efficient in our code if we abstract our sayMotto function into the Person prototype instead. For example:
+
+```
+function Person(name, age, location){
+	this.name = name;
+	this.age = age;
+	this.location = location;
+	this.motto = "Tu ne cede malis";
+};
+Person.prototype.sayMotto = function(){
+	return alert(this.motto);
+};
+var andy = new Person("Andy", 26, "Minneapolis");
+andy.sayMotto(); // Works the same way
+
+```
+Additionally, the `instanceof` operator can tell you what Prototype / Constructor function your new object comes from.
 
 #### Configuring the subl command
 - http://stackoverflow.com/questions/17733367/getting-sublimetext-to-run-from-terminal-in-mac

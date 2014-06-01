@@ -124,7 +124,7 @@ cd lua-5.2.3
 make macosx test
 ```
 
-## Classes In Javascript
+#### Classes In Javascript
 Classes don't natively exist in Javascript. However you can implement a Class-like architecture through the use of Constructor functions:
 
 ```js

@@ -194,6 +194,11 @@ Make sure to put the binary in /usr/local/bin. The binary can be found in /Appli
 ```
 http://www.paulirish.com/2012/box-sizing-border-box-ftw
 
+#### Set any container to 100% of viewport height
+This is super useful if you want to set a full background-image to a container other than the body.
+
+` height: 100vh; `
+
 ## Angular
 
 ### $scope

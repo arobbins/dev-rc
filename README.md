@@ -196,7 +196,9 @@ http://www.paulirish.com/2012/box-sizing-border-box-ftw
 
 #### Set any container to 100% of viewport height
 This is super useful if you want to set a full background-image to a container other than the body.
-` height: 100vh; `
+``` css
+height: 100vh;
+```
 http://stanislav.it/how-to-make-div-element-100-height-of-browser-window-using-css-only
 
 ## Angular

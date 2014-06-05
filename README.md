@@ -184,6 +184,9 @@ Make sure to put the binary in /usr/local/bin. The binary can be found in /Appli
 #### Setting R+W permissions on a folder recursively
 `chmod -R 777 <folder> `
 
+#### Showing hidden files and folders on 10.9.3
+`defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder`
+
 ## CSS Reminders
 #### Reseting the box model using box-sizing reset
 ``` css

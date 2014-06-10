@@ -187,6 +187,9 @@ Make sure to put the binary in /usr/local/bin. The binary can be found in /Appli
 #### Showing hidden files and folders on 10.9.3
 `defaults write com.apple.finder AppleShowAllFiles -boolean true ; killall Finder`
 
+#### List all Branches associated with a given respository
+`git branch -a`
+
 ## CSS Reminders
 #### Reseting the box model using box-sizing reset
 ``` css

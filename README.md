@@ -247,6 +247,7 @@ http://httpstat.us
 - http://www.bobholt.me/2012/08/using-the-revealing-module-pattern (JS Module pattern)
 - http://carldanley.com/js-revealing-module-pattern (JS Module pattern)
 - https://www.interviewcake.com/tips-and-tricks (Interview techniques)
+- https://www.statwing.com/demos/dev-survey-2#workspaces/18726 (Stack Overflow 20,000 Survey)
 
 ### JavaScript
 - http://juliepagano.com/blog/2014/05/18/javascript-debugging-for-beginners (Debugging for beginners)

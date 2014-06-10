@@ -261,8 +261,9 @@ http://httpstat.us
 - http://alistapart.com/article/designing-for-breakpoints (Beyond breakpoints)
 - http://wtfhtmlcss.com (Common CSS Gotchas)
 
-### HTTP / Web
+### HTTP / Server
 - http://www.corsproxy.com (CORS Proxy)
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS (CORS)
 
-
+### Misc
+- http://glaciertheme.com (Current Sublime theme)

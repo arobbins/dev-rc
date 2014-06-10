@@ -266,4 +266,8 @@ http://httpstat.us
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS (CORS)
 
 ### Misc
+<<<<<<< HEAD
 - http://glaciertheme.com (Current Sublime theme)
+=======
+- http://glaciertheme.com (Current Sublime theme)
+>>>>>>> b7ce77fb1306fecc6f62997bf830e8cb6299023b

@@ -254,6 +254,8 @@ http://httpstat.us
 - https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/ch1.md (Scopes & Closure)
 - http://promises-aplus.github.io/promises-spec (Promises 1)
 - http://www.sitepoint.com/overview-javascript-promises (Promises 2)
+- http://www.ecma-international.org/ecma-262/5.1 (Latest ECMA Spec)
+- https://github.com/getify/You-Dont-Know-JS (Kyle Simpson - You don't know JS)
 
 ### Angular
 - https://www.udemy.com/angularjs-jumpstart/#/

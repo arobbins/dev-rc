@@ -257,9 +257,11 @@ http://httpstat.us
 - http://www.ecma-international.org/ecma-262/5.1 (Latest ECMA Spec)
 - https://github.com/getify/You-Dont-Know-JS (Kyle Simpson - You don't know JS)
 - https://github.com/rwaldron/idiomatic.js (Principles of Writing Consistent, Idiomatic JavaScript)
+- https://www.youtube.com/watch?v=XP89VxObKO4 (Browser versions are dead - Kyle Simpson)
 
 ### Angular
 - https://www.udemy.com/angularjs-jumpstart/#/
+- http://durated.github.io/angular-scroll (Angular Scroll)
 
 ### CSS
 - http://alistapart.com/article/designing-for-breakpoints (Beyond breakpoints)

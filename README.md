@@ -210,6 +210,28 @@ foo();
 
 ```
 
+#### Revealing Modular Pattern
+
+``` js
+
+var foo = (function(){
+
+	var o = {
+		bar: "bar"
+	};
+
+	return {
+		bar: function(){
+			console.log(o.bar);
+		}
+	}
+
+})();
+
+foo.bar();
+
+```
+
 #### Configuring the subl command
 - http://stackoverflow.com/questions/17733367/getting-sublimetext-to-run-from-terminal-in-mac
 

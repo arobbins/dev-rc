@@ -256,6 +256,7 @@ http://httpstat.us
 - http://www.sitepoint.com/overview-javascript-promises (Promises 2)
 - http://www.ecma-international.org/ecma-262/5.1 (Latest ECMA Spec)
 - https://github.com/getify/You-Dont-Know-JS (Kyle Simpson - You don't know JS)
+- https://github.com/rwaldron/idiomatic.js (Principles of Writing Consistent, Idiomatic JavaScript)
 
 ### Angular
 - https://www.udemy.com/angularjs-jumpstart/#/

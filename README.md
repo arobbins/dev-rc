@@ -124,6 +124,35 @@ cd lua-5.2.3
 make macosx test
 ```
 
+#### Lexical Scoping
+Predominate scoping model in JavaScript. Lexical scope also means "compile-time scope" (the time you wrote your code). Think of it like walking up the stairs of the building. The rooftop being the global scope. Another way of thinking of it is in terms of "bubbles". Each function contains a bubble that wraps nested functions. (https://frontendmasters.com/courses/advanced-javascript)
+
+#### Dynamic Scoping
+Dynamic scoping is created by using the this keyword as it binds object to specific things.
+
+### This keyword
+Every function, while executing, has a reference to its current executing context called "this".
+
+Four rules for how the this keyword gets bound:
+	1. Default - If you're in strict mode, default this to the undefined value. If you're not in strict mode, default this to the global object. Either undefined to global.
+	2. Implicit binding - Contains a owning object
+	3.
+	4.
+
+How to determine where 'this' is bound. Find the callsite, ask these four rules:
+--------------------------------------------------------------------------------
+1. Was the function called with the new keyword?
+2. Was the function called with call or apply specifying an implicit 'this'?
+3. Was the function called via a containing object (context)?
+4. Default: global object
+
+### New keyword
+When you place the new keyword infront of any function call, it turns it into a constructor call that does 4 things.
+1. A brand new empty object will be created
+2. That object gets linked to a different object*
+3. That object gets bound to the this keyword
+4. If that object does not otherwise return anything it will implicitly insert a return "this".
+
 #### Classes, Prototypes, and Inheritance In Javascript
 Classes don't natively exist in Javascript. However you can implement a Class-like architecture through the use of Constructor functions:
 
@@ -160,6 +189,26 @@ andy.sayMotto(); // Works the same way
 
 ```
 Additionally, the `instanceof` operator can tell you what Prototype / Constructor function your new object comes from.
+
+#### Closures
+Closure is when a function "remembers" its lexical scope even when the function is executed outside that lexical scope.
+
+``` js
+
+function foo() {
+	var bar = "bar";
+	function baz() {
+		console.log(bar);
+	}
+	bam(baz);
+}
+function bam(baz) {
+	baz();
+}
+
+foo();
+
+```
 
 #### Configuring the subl command
 - http://stackoverflow.com/questions/17733367/getting-sublimetext-to-run-from-terminal-in-mac
@@ -273,3 +322,6 @@ http://httpstat.us
 
 ### Misc
 - http://glaciertheme.com (Current Sublime theme)
+
+### Optimization
+- http://compressor.io (image compression)

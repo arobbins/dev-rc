@@ -345,6 +345,7 @@ http://httpstat.us
 
 ### Misc
 - http://glaciertheme.com (Current Sublime theme)
+- http://cdnjs.com (CDNs)
 
 ### Optimization
 - http://compressor.io (image compression)

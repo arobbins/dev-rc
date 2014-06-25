@@ -278,6 +278,11 @@ height: 100vh;
 ```
 http://stanislav.it/how-to-make-div-element-100-height-of-browser-window-using-css-only
 
+#### Horizontalling align floated element
+``` css
+margin: 0 10%;
+```
+
 ## Angular
 
 ### $scope

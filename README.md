@@ -93,6 +93,9 @@ https://help.github.com/articles/associating-text-editors-with-git
 #### Less verbose git status message
 `git status -sb`
 
+#### Stage all tracked files in Git
+`git add -u`
+
 #### Mass find and move of files within unix
 `sudo find /Volumes/Expansion\ Drive/Reason\ Refills -iname "*rhode*" -type f -exec /bin/mv {} /dump/rhodes \;`
 

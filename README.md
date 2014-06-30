@@ -347,6 +347,7 @@ http://httpstat.us
 ### HTTP / Server
 - http://www.corsproxy.com (CORS Proxy)
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS (CORS)
+- http://openmymind.net/2012/2/3/Node-Require-and-Exports (Node's require and exports)
 
 ### Misc
 - http://glaciertheme.com (Current Sublime theme)
@@ -354,3 +355,4 @@ http://httpstat.us
 
 ### Optimization
 - http://compressor.io (image compression)
+- http://blog.arvidandersson.se/2014/06/17/best-practices-in-modern-web-projects (Best Practices in Modern Web Applications)

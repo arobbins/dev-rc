@@ -346,6 +346,7 @@ http://httpstat.us
 - http://alistapart.com/article/designing-for-breakpoints (Beyond breakpoints)
 - http://wtfhtmlcss.com (Common CSS Gotchas)
 - http://grumpicon.com (Tool for turning SVG's into CSS and producing .png fallbacks)
+- http://drewbarontini.com/articles/single-responsibility/?utm_source=html5weekly&utm_medium=email (Modular CSS)
 
 ### HTTP / Server
 - http://www.corsproxy.com (CORS Proxy)

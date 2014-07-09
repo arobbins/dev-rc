@@ -339,6 +339,9 @@ http://httpstat.us
 - https://www.udemy.com/angularjs-jumpstart/#/
 - http://durated.github.io/angular-scroll (Angular Scroll)
 
+### HTML
+- http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom (Shadow DOM)
+
 ### CSS
 - http://alistapart.com/article/designing-for-breakpoints (Beyond breakpoints)
 - http://wtfhtmlcss.com (Common CSS Gotchas)
@@ -352,6 +355,7 @@ http://httpstat.us
 ### Misc
 - http://glaciertheme.com (Current Sublime theme)
 - http://cdnjs.com (CDNs)
+- http://frontendbabel.info/articles/webpage-rendering-101 (What ever Frontend Dev should know...)
 
 ### Optimization
 - http://compressor.io (image compression)

@@ -156,6 +156,34 @@ When you place the new keyword infront of any function call, it turns it into a 
 3. That object gets bound to the this keyword
 4. If that object does not otherwise return anything it will implicitly insert a return "this".
 
+### Speed Test program
+```js
+var SpeedTest = function(testImplement,testParams,repetitions){
+  this.testImplement = testImplement;
+  this.testParams = testParams;
+  this.repetitions = repetitions || 10000;
+  this.average = 0;
+};
+
+SpeedTest.prototype = {
+  startTest: function(){
+    if( this.testImplement( this.testParams ) === false ){
+      alert("Yo, man, that test failed with those parameters.");
+      return;
+    }
+    var beginTime, endTime, sumTimes = 0;
+    for (var i = 0, x = this.repetitions; i < x; i++){
+      beginTime = +new Date();
+      this.testImplement( this.testParams );
+      endTime = +new Date();
+      sumTimes += endTime - beginTime;
+    }
+    this.average = sumTimes / this.repetitions;
+    return console.log("Average execution across " + this.repetitions + ": " + this.average);
+  }
+};
+```
+
 #### Classes, Prototypes, and Inheritance In Javascript
 Classes don't natively exist in Javascript. However you can implement a Class-like architecture through the use of Constructor functions:
 

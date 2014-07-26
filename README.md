@@ -370,10 +370,12 @@ http://httpstat.us
 - https://github.com/getify/You-Dont-Know-JS (Kyle Simpson - You don't know JS)
 - https://github.com/rwaldron/idiomatic.js (Principles of Writing Consistent, Idiomatic JavaScript)
 - https://www.youtube.com/watch?v=XP89VxObKO4 (Browser versions are dead - Kyle Simpson)
+- http://toddmotto.com/mastering-the-module-pattern (Mastering the Module pattern)
 
 ### Angular
 - https://www.udemy.com/angularjs-jumpstart/#/
 - http://durated.github.io/angular-scroll (Angular Scroll)
+- http://toddmotto.com/opinionated-angular-js-styleguide-for-teams (Angular Styleguide)
 
 ### HTML
 - http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom (Shadow DOM)
@@ -393,6 +395,7 @@ http://httpstat.us
 - http://glaciertheme.com (Current Sublime theme)
 - http://cdnjs.com (CDNs)
 - http://frontendbabel.info/articles/webpage-rendering-101 (What ever Frontend Dev should know...)
+- http://www.sitepoint.com/conduct-fair-meaningful-technical-interview (Interview questions)
 
 ### Optimization
 - http://compressor.io (image compression)

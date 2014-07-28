@@ -371,6 +371,7 @@ http://httpstat.us
 - https://github.com/rwaldron/idiomatic.js (Principles of Writing Consistent, Idiomatic JavaScript)
 - https://www.youtube.com/watch?v=XP89VxObKO4 (Browser versions are dead - Kyle Simpson)
 - http://toddmotto.com/mastering-the-module-pattern (Mastering the Module pattern)
+- http://momentjs.com (Moment.js Dates in Javascript)
 
 ### Angular
 - https://www.udemy.com/angularjs-jumpstart/#/

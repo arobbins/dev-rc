@@ -372,6 +372,7 @@ http://httpstat.us
 - https://www.youtube.com/watch?v=XP89VxObKO4 (Browser versions are dead - Kyle Simpson)
 - http://toddmotto.com/mastering-the-module-pattern (Mastering the Module pattern)
 - http://momentjs.com (Moment.js Dates in Javascript)
+- http://youmightnotneedjquery.com (You might not need jquery)
 
 ### Angular
 - https://www.udemy.com/angularjs-jumpstart/#/

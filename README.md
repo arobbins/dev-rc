@@ -373,6 +373,7 @@ http://httpstat.us
 - http://toddmotto.com/mastering-the-module-pattern (Mastering the Module pattern)
 - http://momentjs.com (Moment.js Dates in Javascript)
 - http://youmightnotneedjquery.com (You might not need jquery)
+- https://medium.com/javascript-scene/learn-javascript-b631a4af11f2 (Quality JS Learning resources)
 
 ### Angular
 - https://www.udemy.com/angularjs-jumpstart/#/

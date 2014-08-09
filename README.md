@@ -298,6 +298,15 @@ Make sure to put the binary in /usr/local/bin. The binary can be found in /Appli
 `git branch -a`
 
 ## CSS Reminders
+#### Clickable background-images
+``` css
+/* Instead of padding, use text-indent to move copy if needed */
+
+.link {
+	text-indent: 10%;
+}
+```
+
 #### Reseting the box model using box-sizing reset
 ``` css
 /* apply a natural box layout model to all elements */

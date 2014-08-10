@@ -412,3 +412,4 @@ http://httpstat.us
 ### Optimization
 - http://compressor.io (image compression)
 - http://blog.arvidandersson.se/2014/06/17/best-practices-in-modern-web-projects (Best Practices in Modern Web Applications)
+- http://scottjehl.github.io/picturefill/#download (Responsie Images)

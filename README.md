@@ -361,7 +361,9 @@ Code  | Status
 http://httpstat.us
 
 ## You Don't know JS Notes (Scope & Closures)
-Note: LHS and RHS meaning "left/right-hand side of an assigment" doesn't necessarily literally mean "left/right side of the = assignment operator". There are several other ways that assignments happen, and so it's better to conceptually think about it as: "who's the target of the assignment (LHS)" and "who's the source of the assignment (RHS)".
+>  Note: LHS and RHS meaning "left/right-hand side of an assigment" doesn't necessarily literally mean "left/right side of the = assignment operator". There are several other ways that assignments happen, and so it's better to conceptually think about it as: "who's the target of the assignment (LHS)" and "who's the source of the assignment (RHS)".
+
+> "Strict Mode", which was added in ES5, has a number of different behaviors from normal/relaxed/lazy mode. One such behavior is that it disallows the automatic/implicit global variable creation. In that case, there would be no global Scope'd variable to hand back from an LHS look-up, and Engine would throw a ReferenceError similarly to the RHS case.
 
 ## Resources
 

@@ -1,6 +1,6 @@
-A Personal Front-end Taxonomy
-=================================
-> This repository documents my journey of becoming an expert at my craft. I'm planning to document everything that has been confusing, helpful, and interesting along the way!
+Front-end Ninja Notes
+=====================
+> References, reminders, resources...
 
 ## File Descriptions
 #### `.bashrc` & `.bash_profile`

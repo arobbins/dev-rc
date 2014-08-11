@@ -360,6 +360,9 @@ Code  | Status
 
 http://httpstat.us
 
+## You Don't know JS Notes (Scope & Closures)
+Note: LHS and RHS meaning "left/right-hand side of an assigment" doesn't necessarily literally mean "left/right side of the = assignment operator". There are several other ways that assignments happen, and so it's better to conceptually think about it as: "who's the target of the assignment (LHS)" and "who's the source of the assignment (RHS)".
+
 ## Resources
 
 ### Inspiration

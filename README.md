@@ -393,9 +393,11 @@ http://httpstat.us
 - https://www.udemy.com/angularjs-jumpstart/#/
 - http://durated.github.io/angular-scroll (Angular Scroll)
 - http://toddmotto.com/opinionated-angular-js-styleguide-for-teams (Angular Styleguide)
+- http://ionicframework.com (Open-source front-end framework for building hybrid mobile apps)
 
 ### HTML
 - http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom (Shadow DOM)
+- http://ericportis.com/posts/2014/srcset-sizes/ (Srcset and sizes - responsive image technique)
 
 ### CSS
 - http://alistapart.com/article/designing-for-breakpoints (Beyond breakpoints)
@@ -411,6 +413,7 @@ http://httpstat.us
 ### Misc
 - http://glaciertheme.com (Current Sublime theme)
 - http://cdnjs.com (CDNs)
+- https://github.com/josephyzhou/github-trending (Github trending, nice)
 - http://frontendbabel.info/articles/webpage-rendering-101 (What ever Frontend Dev should know...)
 - http://www.sitepoint.com/conduct-fair-meaningful-technical-interview (Interview questions)
 

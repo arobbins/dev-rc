@@ -328,6 +328,14 @@ http://stanislav.it/how-to-make-div-element-100-height-of-browser-window-using-c
 margin: 0 10%;
 ```
 
+## HTTP
+- The default port for HTTP traffic is 80.
+
+> To be able to fetch those quickly, browsers will make several requests simultaneously, rather than waiting for the responses one at a time.
+
+> Making HTTP requests in web page scripts once again raises concerns about security. The person who controls the script might not have the same interests as the person on whose computer it is running. More specifically, if I visit themafia.org, I do not want its scripts to be able to make a request to mybank.com, using identifying information from my browser, with instructions to transfer all my money to some random mafia account. It is not too hard for websites to protect themselves against such attacks, but it requires effort, and many websites fail to do it. For this reason, browsers protect us by disallowing scripts to make HTTP requests to other domains (names like themafia.org and mybank.com).
+
+
 ## Angular
 
 ### $scope
@@ -409,6 +417,7 @@ http://httpstat.us
 - http://www.corsproxy.com (CORS Proxy)
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS (CORS)
 - http://openmymind.net/2012/2/3/Node-Require-and-Exports (Node's require and exports)
+- http://eloquentjavascript.net/17_http.html (HTTP chapter from Eloquent JavaScript second edition)
 
 ### Misc
 - http://glaciertheme.com (Current Sublime theme)

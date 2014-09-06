@@ -117,6 +117,20 @@ https://help.github.com/articles/associating-text-editors-with-git
 }
 ```
 
+#### Horizontally center absolutely positioned element
+``` css
+.parent-element {
+  position: relative;
+}
+.element {
+	width: 25%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+```
+
 #### Building and Installing Lua on Mac
 - http://www.lua.org/faq.html#1.1
 

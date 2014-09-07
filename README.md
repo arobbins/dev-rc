@@ -420,6 +420,7 @@ http://httpstat.us
 ### HTML
 - http://www.html5rocks.com/en/tutorials/webcomponents/shadowdom (Shadow DOM)
 - http://ericportis.com/posts/2014/srcset-sizes/ (Srcset and sizes - responsive image technique)
+- https://dev.opera.com/articles/native-responsive-images (Native responsive images)
 
 ### CSS
 - http://alistapart.com/article/designing-for-breakpoints (Beyond breakpoints)

@@ -440,6 +440,7 @@ http://httpstat.us
 - https://github.com/josephyzhou/github-trending (Github trending, nice)
 - http://frontendbabel.info/articles/webpage-rendering-101 (What ever Frontend Dev should know...)
 - http://www.sitepoint.com/conduct-fair-meaningful-technical-interview (Interview questions)
+- http://justinhileman.info/article/git-pretty/full (Git workflow chart -- very helpful)
 
 ### Optimization
 - http://compressor.io (image compression)

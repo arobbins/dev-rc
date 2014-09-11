@@ -445,6 +445,7 @@ http://httpstat.us
 - http://www.sitepoint.com/conduct-fair-meaningful-technical-interview (Interview questions)
 - http://justinhileman.info/article/git-pretty/full (Git workflow chart -- very helpful)
 - https://github.com/audreyr/favicon-cheat-sheet (Favicon best practices)
+- http://realfavicongenerator.net (Favicon generator)
 
 ### Optimization
 - http://compressor.io (image compression)

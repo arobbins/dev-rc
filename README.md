@@ -441,6 +441,7 @@ http://httpstat.us
 - http://frontendbabel.info/articles/webpage-rendering-101 (What ever Frontend Dev should know...)
 - http://www.sitepoint.com/conduct-fair-meaningful-technical-interview (Interview questions)
 - http://justinhileman.info/article/git-pretty/full (Git workflow chart -- very helpful)
+- https://github.com/audreyr/favicon-cheat-sheet (Favicon best practices)
 
 ### Optimization
 - http://compressor.io (image compression)

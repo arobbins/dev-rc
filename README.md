@@ -15,6 +15,9 @@ if [ -f ~/.bashrc ]; then
 fi
 ```
 
+#### Favicon
+An .ico file is a container for multiple .bmp or .png icons of different sizes.
+
 #### `.DS_Store`
 The .DS_Store (Desktop Services Store) file keeps custom attributes of a folder such as the position of icons or the choice of a background image.
 

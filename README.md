@@ -430,6 +430,8 @@ http://httpstat.us
 - http://wtfhtmlcss.com (Common CSS Gotchas)
 - http://grumpicon.com (Tool for turning SVG's into CSS and producing .png fallbacks)
 - http://drewbarontini.com/articles/single-responsibility/?utm_source=html5weekly&utm_medium=email (Modular CSS)
+- http://csstriggers.com (Which CSS properties trigger repaints, reflows, etc)
+- http://aerotwist.com/blog/css-triggers (Companion blog post to the above article)
 
 ### HTTP / Server
 - http://www.corsproxy.com (CORS Proxy)
@@ -446,8 +448,11 @@ http://httpstat.us
 - http://justinhileman.info/article/git-pretty/full (Git workflow chart -- very helpful)
 - https://github.com/audreyr/favicon-cheat-sheet (Favicon best practices)
 - http://realfavicongenerator.net (Favicon generator)
+- http://exercism.io (Hands on learning tool for programming)
+- http://developer.telerik.com/featured/scroll-event-change-ios-8-big-deal (New iOS scroll functionality)
 
 ### Optimization
 - http://compressor.io (image compression)
 - http://blog.arvidandersson.se/2014/06/17/best-practices-in-modern-web-projects (Best Practices in Modern Web Applications)
 - http://scottjehl.github.io/picturefill/#download (Responsie Images)
+- http://filamentgroup.com/lab/performance-rwd.html (Making responsive sites faster)

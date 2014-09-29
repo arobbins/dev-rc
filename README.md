@@ -390,6 +390,13 @@ http://httpstat.us
 
 > "Strict Mode", which was added in ES5, has a number of different behaviors from normal/relaxed/lazy mode. One such behavior is that it disallows the automatic/implicit global variable creation. In that case, there would be no global Scope'd variable to hand back from an LHS look-up, and Engine would throw a ReferenceError similarly to the RHS case.
 
+## Wordpress
+### Enable local installation of Plugins
+Add below code to wp-config.php
+``` php
+define('FS_METHOD', 'direct');
+```
+
 ## Resources
 
 ### Inspiration

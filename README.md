@@ -65,6 +65,14 @@ ulimit is a *nix preference that limits system resources started by the shell it
 http://stackoverflow.com/questions/5256599/what-are-file-descriptors-explained-in-simple-terms
 http://ss64.com/bash/ulimit.html
 
+#### Semantic difference between Parameter and Argument
+Parameters: A property you set on a function when initially defining it
+Arguments: The value you pass into a function when calling it
+
+##### Sources
+* https://teamtreehouse.com/forum/what-is-the-difference-between-an-argument-and-a-parameter
+* http://msdn.microsoft.com/en-us/library/9kewt1b3.aspx
+
 ## How tos
 #### Markdown formatting
 [Markdown Basics](http://markdown-guide.readthedocs.org/en/latest/basics.html)

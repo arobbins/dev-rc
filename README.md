@@ -29,7 +29,7 @@ GNU Wget is a free utility for non-interactive download of files from the Web. I
 #### Bash
 Bash (Bourne Again SHell) is the default shell on OSX and Linux.
 
-#### Semantic difference between Parameter and Argument
+#### Semantic difference between Parameters and Arguments
 **Parameters:** A property you set on a function when initially defining it
 **Arguments:** The value you pass into a function when calling it
 

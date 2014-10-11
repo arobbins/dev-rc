@@ -150,6 +150,20 @@ cd lua-5.2.3
 make macosx test
 ```
 
+#### How Arrays are objects behind the scenes
+```js
+var arr = [];
+arr.push(10, 20);
+arr["prop1"] = "value1";
+
+// Behind the scenes
+arr = {
+	0: 10,
+	1: 20,
+	prop1: "value1"
+}
+```
+
 #### Lexical Scoping
 Predominate scoping model in JavaScript. Lexical scope also means "compile-time scope" (the time you wrote your code). Think of it like walking up the stairs of the building. The rooftop being the global scope. Another way of thinking of it is in terms of "bubbles". Each function contains a bubble that wraps nested functions. (https://frontendmasters.com/courses/advanced-javascript)
 

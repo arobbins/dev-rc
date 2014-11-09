@@ -195,35 +195,55 @@ When you place the new keyword infront of any function call, it turns it into a 
 
 ### Speed Test program
 ```js
-var SpeedTest = function(testImplement,testParams,repetitions){
-  this.testImplement = testImplement;
-  this.testParams = testParams;
-  this.repetitions = repetitions || 10000;
-  this.average = 0;
+// Primitives Array - 150 items
+var listPrim = [12.42423, 324.42423, 4.42423, 25.42423, 65.42423, 23.42423, 532.42423, 24.42423, 535.42423, 747.42423, 5.42423, 4365.42423, 63.42423, 35.42423, 62.42423, 46.42423, 52.42423, 225.42423, 6436.42423, 23.42423, 53.42423, 52.42423, 5.42423, 26.42423, 35.2, 12.42423, 324.42423, 4.42423, 25.42423, 65.42423, 23.42423, 532.42423, 24.42423, 535.42423, 747.42423, 5.42423, 4365.42423, 63.42423, 35.42423, 62.42423, 46.42423, 52.42423, 225.42423, 6436.42423, 23.42423, 53.42423, 52.42423, 5.42423, 26.42423, 35.2, 12.42423, 324.42423, 4.42423, 25.42423, 65.42423, 23.42423, 532.42423, 24.42423, 535.42423, 747.42423, 5.42423, 4365.42423, 63.42423, 35.42423, 62.42423, 46.42423, 52.42423, 225.42423, 6436.42423, 23.42423, 53.42423, 52.42423, 5.42423, 26.42423, 35.2, 12.42423, 324.42423, 4.42423, 25.42423, 65.42423, 23.42423, 532.42423, 24.42423, 535.42423, 747.42423, 5.42423, 4365.42423, 63.42423, 35.42423, 62.42423, 46.42423, 52.42423, 225.42423, 6436.42423, 23.42423, 53.42423, 52.42423, 5.42423, 26.42423, 35.2, 12.42423, 324.42423, 4.42423, 25.42423, 65.42423, 23.42423, 532.42423, 24.42423, 535.42423, 747.42423, 5.42423, 4365.42423, 63.42423, 35.42423, 62.42423, 46.42423, 52.42423, 225.42423, 6436.42423, 23.42423, 53.42423, 52.42423, 5.42423, 26.42423, 35.2, 12.42423, 324.42423, 4.42423, 25.42423, 65.42423, 23.42423, 532.42423, 24.42423, 535.42423, 747.42423, 5.42423, 4365.42423, 63.42423, 35.42423, 62.42423, 46.42423, 52.42423, 225.42423, 6436.42423, 23.42423, 53.42423, 52.42423, 5.42423, 26.42423, 35.2];
+
+var SpeedTest = function(func, params, reps){
+	this.func = func;
+	this.params = params;
+	this.reps = reps || 10000;
+	this.average = 0;
 };
 
 SpeedTest.prototype = {
-  startTest: function(){
-    var beginTime,
-        endTime,
-        sumTimes = 0;
+	startTest: function(){
 
-    if( this.testImplement( this.testParams ) === false ){
-      alert("Yo, man, that test failed with those parameters.");
-      return;
-    }
+		// Set up variables
+		var beginTime,
+			 endTime,
+			 sumTimes = 0;
 
-    for (var i = 0, x = this.repetitions; i < x; i++){
-      beginTime = +new Date();
-      this.testImplement( this.testParams );
-      endTime = +new Date();
-      sumTimes += endTime - beginTime;
-    }
+		// Check for valid params
+		if(this.func(this.params) === false ){
+			alert("Yo man, the test failed with those parameters.");
+			return;
+		}
 
-    this.average = sumTimes / this.repetitions;
-    return console.log("Average execution across " + this.repetitions + ": " + this.average);
-  }
+		// Start the test
+		for (var i = 0, x = this.reps; i < x; i++){
+			beginTime = +new Date();
+			this.func(this.params);
+			endTime = +new Date();
+			sumTimes += endTime - beginTime;
+		}
+
+		// Find the average
+		this.average = sumTimes / this.reps;
+
+		// Return result!
+		return console.log("Average execution across " + this.reps + " repetitions: " + this.average);
+	}
 };
+
+var logger = function(element, index, array) {
+	console.log(element.toFixed());
+};
+
+var looper = function(func){
+	listPrim.forEach(func);
+}
+
+var myTest = new SpeedTest(looper, logger, 5000);
 ```
 
 #### Classes, Prototypes, and Inheritance In Javascript

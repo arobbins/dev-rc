@@ -437,6 +437,10 @@ Add below code to wp-config.php
 define('FS_METHOD', 'direct');
 ```
 
+#### Correct permissions
+find . -type f -exec chmod 644 {} +
+find . -type d -exec chmod 755 {} +
+
 ## Resources
 
 ### Inspiration

@@ -385,6 +385,19 @@ http://stanislav.it/how-to-make-div-element-100-height-of-browser-window-using-c
 margin: 0 10%;
 ```
 
+#### Usefull SASS Mixins
+``` scss
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+```
+
 ## HTTP
 - The default port for HTTP traffic is 80.
 

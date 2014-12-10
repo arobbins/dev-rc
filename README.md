@@ -432,7 +432,7 @@ The $inject property is a way in which you can inject your dependencies that min
 Code  | Status
 ----- | -------------
 200	| Ok
-404	| Forbidden
+403	| Forbidden
 404	| Not found
 500	| Internal Server Error
 

@@ -28,6 +28,9 @@ GNU Wget is a free utility for non-interactive download of files from the Web. I
 #### 'cat ~/.ssh/id_rsa.pub | ssh user@server 'cat >> .ssh/authorized_keys'
 Copies your public key to the authorized_keys file on remote server
 
+#### 'chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys'
+Changes correct permissions of .ssh folder and authorized_keys file
+
 ## Definitions
 #### Bash
 Bash (Bourne Again SHell) is the default shell on OSX and Linux.

@@ -25,7 +25,7 @@ The .DS_Store (Desktop Services Store) file keeps custom attributes of a folder 
 #### `wget`
 GNU Wget is a free utility for non-interactive download of files from the Web. It supports HTTP, HTTPS, and FTP protocols, as well as retrieval through HTTP proxies. (Note: add -c flag to resume a broken download).
 
-#### 'cat ~/.ssh/id_rsa.pub | ssh user@server 'cat >> .ssh/authorized_keys'
+#### 'cat ~/.ssh/id_rsa.pub | ssh user@server 'cat >> .ssh/authorized_keys''
 Copies your public key to the authorized_keys file on remote server
 
 #### 'chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys'
@@ -361,6 +361,18 @@ Make sure to put the binary in /usr/local/bin. The binary can be found in /Appli
 `git branch -a`
 
 ## CSS Reminders
+#### Prevent copy from wrapping underneath floated elements
+http://stackoverflow.com/questions/11411219/css-to-stop-text-wrapping-under-image/15421257#15421257
+``` css
+/* Element not to be wrapped must be block-level */
+img {
+	float: left;
+}
+p {
+	overflow: hidden
+}
+```
+
 #### Clickable background-images
 ``` css
 /* Instead of padding, use text-indent to move copy if needed */

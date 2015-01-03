@@ -31,6 +31,9 @@ Copies your public key to the authorized_keys file on remote server
 #### 'chmod 700 ~/.ssh && chmod 600 ~/.ssh/authorized_keys'
 Changes correct permissions of .ssh folder and authorized_keys file
 
+#### 'zip -r --password (password) (filename) (folder)'
+Recursively zip a directory and password protect it
+
 ## Definitions
 #### Bash
 Bash (Bourne Again SHell) is the default shell on OSX and Linux.

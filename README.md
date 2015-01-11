@@ -519,6 +519,7 @@ find . -type d -exec chmod 755 {} +
 - http://aerotwist.com/blog/css-triggers (Companion blog post to the above article)
 
 ### HTTP / Server
+- https://gist.github.com/jed/6147872 (Setting up local SSL)
 - http://www.corsproxy.com (CORS Proxy)
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS (CORS)
 - http://openmymind.net/2012/2/3/Node-Require-and-Exports (Node's require and exports)

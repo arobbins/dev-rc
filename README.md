@@ -542,3 +542,6 @@ find . -type d -exec chmod 755 {} +
 - http://blog.arvidandersson.se/2014/06/17/best-practices-in-modern-web-projects (Best Practices in Modern Web Applications)
 - http://scottjehl.github.io/picturefill/#download (Responsie Images)
 - http://filamentgroup.com/lab/performance-rwd.html (Making responsive sites faster)
+
+### Unix
+- http://www.oliverelliott.org/article/computing/tut_unix/#Introduction (Intro to Unix)

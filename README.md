@@ -114,6 +114,9 @@ https://help.github.com/articles/associating-text-editors-with-git
 #### Stage all tracked files in Git
 `git add -u`
 
+#### Show changed files in specific commit
+'git show --pretty="format:" --name-only bd61ad98'
+
 #### Mass find and move of files within unix
 `sudo find /Volumes/Expansion\ Drive/Reason\ Refills -iname "*rhode*" -type f -exec /bin/mv {} /dump/rhodes \;`
 

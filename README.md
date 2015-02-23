@@ -475,6 +475,13 @@ define('FS_METHOD', 'direct');
 find . -type f -exec chmod 644 {} +
 find . -type d -exec chmod 755 {} +
 
+## APIs
+#### Consuming a WS through curl
+curl -k -H "Accept:application/json" -H "Authorization: Basic YXJvYmJpbnNfcWE6QDhBfsdDdsskOKNaj4=" https://wsurlgoeshere.com
+
+-k allows for an insecure connection
+-H sets a header
+
 ## Resources
 
 ### Inspiration

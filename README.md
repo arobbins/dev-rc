@@ -482,6 +482,18 @@ curl -k -H "Accept:application/json" -H "Authorization: Basic YXJvYmJpbnNfcWE6QD
 -k allows for an insecure connection
 -H sets a header
 
+## Databases
+### MySQL
+#### Importing mysql database
+``` mysql
+mysql -u username -p database_name < file.sql
+```
+
+#### Dumping mysql database
+``` mysql
+mysqldump -u username -p database_name > file.sql
+```
+
 ## Resources
 
 ### Inspiration

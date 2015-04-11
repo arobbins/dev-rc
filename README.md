@@ -470,6 +470,28 @@ http://httpstat.us
 > "Strict Mode", which was added in ES5, has a number of different behaviors from normal/relaxed/lazy mode. One such behavior is that it disallows the automatic/implicit global variable creation. In that case, there would be no global Scope'd variable to hand back from an LHS look-up, and Engine would throw a ReferenceError similarly to the RHS case.
 
 ## Wordpress
+
+### Remove WYSIWYG editor on pages only
+
+``` php
+
+function remove_editor_on_pages() {
+  global $_wp_post_type_features;
+
+  $post_type = "page";
+  $feature = "editor";
+
+  if (!isset($_wp_post_type_features[$post_type])) {
+
+  } else if (isset($_wp_post_type_features[$post_type][$feature])) {
+    unset($_wp_post_type_features[$post_type][$feature]);
+  }
+
+}
+add_action("init", "remove_editor_on_pages");
+
+```
+
 ### Enable local installation of Plugins
 Add below code to wp-config.php
 ``` php

@@ -422,6 +422,12 @@ margin: 0 10%;
 }
 ```
 
+## SSH
+local dir: "~/.ssh"
+
+## SCP
+Upload file: "scp <file> <un>@<server>:~/"
+
 ## HTTP
 - The default port for HTTP traffic is 80.
 

@@ -456,6 +456,8 @@ Renders as:
 ### $inject
 The $inject property is a way in which you can inject your dependencies that minifiers will not break. It's similar to the array syntax when declaring your function parameters.
 
+## PHP
+php.ini file location: '/private/etc/php.ini'
 
 ## NPM
 `--save-dev` updates package.json

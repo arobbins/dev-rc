@@ -479,6 +479,20 @@ http://httpstat.us
 
 ## Wordpress
 
+### Repo strategy
+- Don't store Core files
+  - These files shouldn't be changing in the first place
+
+- Don't store sensitive information
+  - Following security best practices
+
+- Don't store uploads
+  - Repo becomes out of date as soon as client uploads something new
+  - Repo becomes way too large
+
+- Store Theme
+- Store Plugins
+
 ### Remove WYSIWYG editor on pages only
 
 ``` php

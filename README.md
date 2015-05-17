@@ -586,6 +586,9 @@ mysqldump -u username -p database_name > file.sql
 - http://csstriggers.com (Which CSS properties trigger repaints, reflows, etc)
 - http://aerotwist.com/blog/css-triggers (Companion blog post to the above article)
 
+### Wordpress
+- http://polevaultweb.com/2014/03/5-ways-synchronise-wordpress-uploads-across-environments (Workflow tips)
+
 ### HTTP / Server
 - https://gist.github.com/jed/6147872 (Setting up local SSL)
 - http://www.corsproxy.com (CORS Proxy)

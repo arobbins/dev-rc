@@ -366,6 +366,12 @@ Make sure to put the binary in /usr/local/bin. The binary can be found in /Appli
 #### List all Branches associated with a given respository
 `git branch -a`
 
+## GIT
+#### Show changed files from last commit
+``` bash
+git diff-tree --no-commit-id --name-only -r 952364b
+```
+
 ## CSS Reminders
 #### Prevent copy from wrapping underneath floated elements
 http://stackoverflow.com/questions/11411219/css-to-stop-text-wrapping-under-image/15421257#15421257

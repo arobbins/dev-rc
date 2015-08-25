@@ -34,6 +34,9 @@ Changes correct permissions of .ssh folder and authorized_keys file
 #### 'zip -r --password (password) (filename) (folder)'
 Recursively zip a directory and password protect it
 
+#### 'find ./ -type f -name '*.jpg' -exec du -ch {} + | grep total$'
+Show total file size of a given dir
+
 ## Definitions
 #### Bash
 Bash (Bourne Again SHell) is the default shell on OSX and Linux.

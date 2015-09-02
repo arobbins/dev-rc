@@ -369,6 +369,12 @@ Make sure to put the binary in /usr/local/bin. The binary can be found in /Appli
 #### List all Branches associated with a given respository
 `git branch -a`
 
+## Apache
+#### Test the current configuration of Apache
+``` bash
+apachectl -t
+```
+
 ## GIT
 #### Show changed files from last commit
 ``` bash

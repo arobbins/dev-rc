@@ -371,6 +371,13 @@ Make sure to put the binary in /usr/local/bin. The binary can be found in /Appli
 
 ## Apache
 #### Test the current configuration of Apache
+
+The below two commands do the same thing
+
+``` bash
+apachectl configtest
+```
+
 ``` bash
 apachectl -t
 ```

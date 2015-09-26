@@ -388,6 +388,12 @@ apachectl -t
 git diff-tree --no-commit-id --name-only -r 952364b
 ```
 
+#### Force Merge
+``` bash
+git fetch --all
+git reset --hard origin/master
+```
+
 ## CSS Reminders
 #### Prevent copy from wrapping underneath floated elements
 http://stackoverflow.com/questions/11411219/css-to-stop-text-wrapping-under-image/15421257#15421257

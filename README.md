@@ -574,6 +574,9 @@ mysql -u username -p database_name < file.sql
 mysqldump -u username -p database_name > file.sql
 ```
 
+## Bug Journal
+Pending the infestation...
+
 ## Resources
 
 ### Inspiration

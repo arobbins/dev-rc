@@ -2,6 +2,12 @@ Notes
 =====================
 > References, reminders, resources
 
+## Bugs
+
+### WP Migrate DB
+#### Connection error
+- Try unchecking SSL verification on local site
+
 ## File Descriptions
 #### `.bashrc` & `.bash_profile`
 On OS X, when you open a new terminal window it logs the user into a new bash shell. Upon login, bash will first read the file `/etc/profile` for root level commands. Then bash will go to your home directory `~/` and read the following four files in the order in which they're found: `~/.bash_profile`, `~/.bash_login`, `~/.profile`, `~/.login`. For example, if you don't have a `.bash_profile` in your home directory, bash will then try to find `.bash_login`, and then `.profile`, etc.

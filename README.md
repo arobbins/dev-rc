@@ -4,6 +4,9 @@ Notes
 
 ## Bugs
 
+### Issue: WordPress Media Library displays 404 error / admin-ajax.php not found
+Solution: Permissions are incorrect on the wp-content folder. Temporarily changing to 777 fixed the issue.
+
 ### WP Migrate DB
 #### Connection error
 - Try unchecking SSL verification on local site

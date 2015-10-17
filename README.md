@@ -53,6 +53,15 @@ Recursively zip a directory and password protect it
 #### 'find ./ -type f -name '*.jpg' -exec du -ch {} + | grep total$'
 Show total file size of a given dir
 
+#### tar -zcvf archive_name.tar.gz folder_to_compress
+.tar compression
+
+#### tar -zxvf archive_name.tar.gz
+.tar extraction
+
+#### sudo rm -rf ~/.Trash/*
+Force empty trash
+
 ## Definitions
 #### Bash
 Bash (Bourne Again SHell) is the default shell on OSX and Linux.

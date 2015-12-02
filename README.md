@@ -14,6 +14,9 @@ find . -type d -exec chmod 755 {} +
 find . -type f -exec chmod 644 {} +
 ```
 
+### Issue: Angular dependencies not loading
+Solution: Make sure they're in the correct order
+
 ### WP Migrate DB
 #### Connection error
 - Try unchecking SSL verification on local site
@@ -420,6 +423,10 @@ git reset --hard origin/master
 ```
 
 ## CSS Reminders
+
+#### List of Flexbox vendor prefixes
+http://ptb2.me/flexbox
+
 #### Prevent copy from wrapping underneath floated elements
 http://stackoverflow.com/questions/11411219/css-to-stop-text-wrapping-under-image/15421257#15421257
 ``` css

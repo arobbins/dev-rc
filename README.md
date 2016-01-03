@@ -7,6 +7,11 @@ Notes
 ### Issue: WordPress Media Library displays 404 error / admin-ajax.php not found
 Solution: Permissions are incorrect on the wp-content folder. Temporarily changing to 777 fixed the issue.
 ```
+
+### Issue: Sublime Text 3 triggers high CPU usage
+Solution: Add the following to user config:"index_files": false
+```
+
 # Directories
 find . -type d -exec chmod 755 {} +
 

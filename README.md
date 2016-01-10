@@ -46,6 +46,9 @@ An .ico file is a container for multiple .bmp or .png icons of different sizes. 
 The .DS_Store (Desktop Services Store) file keeps custom attributes of a folder such as the position of icons or the choice of a background image.
 
 ## Unix Commands
+#### sudo killall Finder
+Restart the Finder
+
 #### `wget`
 GNU Wget is a free utility for non-interactive download of files from the Web. It supports HTTP, HTTPS, and FTP protocols, as well as retrieval through HTTP proxies. (Note: add -c flag to resume a broken download).
 

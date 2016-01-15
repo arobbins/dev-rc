@@ -13,6 +13,9 @@ Solution: Add the following to user config:"index_files": false
 ### Issue: WordPress 500 Internal error
 Solution: Fix permissions, and add .htaccess
 
+### Issue: Migrabte DB Pro failing on media transfer
+Solution: As far as I can tell this only occurs when attempting a tranfer from localhost to remote. Pulling from another remote fixed it for me.
+
 # Directories
 find . -type d -exec chmod 755 {} +
 

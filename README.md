@@ -6,11 +6,12 @@ Notes
 
 ### Issue: WordPress Media Library displays 404 error / admin-ajax.php not found
 Solution: Permissions are incorrect on the wp-content folder. Temporarily changing to 777 fixed the issue.
-```
 
 ### Issue: Sublime Text 3 triggers high CPU usage
 Solution: Add the following to user config:"index_files": false
-```
+
+### Issue: WordPress 500 Internal error
+Solution: Fix permissions, and add .htaccess
 
 # Directories
 find . -type d -exec chmod 755 {} +
@@ -589,8 +590,9 @@ define('FS_METHOD', 'direct');
 ```
 
 #### Correct permissions
-find . -type f -exec chmod 644 {} +
-find . -type d -exec chmod 755 {} +
+chown www-data:www-data -R *          # Let apache be owner
+find . -type d -exec chmod 755 {} \;  # Change directory permissions rwxr-xr-x
+find . -type f -exec chmod 644 {} \;  # Change file permissions rw-r--r--
 
 ### WooCommerce
 #### API Docs http://docs.woothemes.com/wc-apidocs

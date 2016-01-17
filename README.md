@@ -635,6 +635,9 @@ Pending the infestation...
 ### Git
 - https://github.com/tj/git-extras (Git extras)
 
+### Images
+- https://varvy.com/pagespeed/base64-images.html (Base64 Encoding of images)
+
 ### JavaScript
 - http://juliepagano.com/blog/2014/05/18/javascript-debugging-for-beginners (Debugging for beginners)
 - https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/ch1.md (Scopes & Closure)

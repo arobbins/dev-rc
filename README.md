@@ -667,6 +667,7 @@ Pending the infestation...
 
 ### Wordpress
 - http://polevaultweb.com/2014/03/5-ways-synchronise-wordpress-uploads-across-environments (Workflow tips)
+- https://github.com/arobbins/wp-deploy-checklist (WP Deploy Checklist)
 
 ### HTTP / Server
 - https://gist.github.com/jed/6147872 (Setting up local SSL)

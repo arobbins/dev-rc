@@ -632,6 +632,9 @@ Pending the infestation...
 - https://www.interviewcake.com/tips-and-tricks (Interview techniques)
 - https://www.statwing.com/demos/dev-survey-2#workspaces/18726 (Stack Overflow 20,000 Survey)
 
+### Git
+- https://github.com/tj/git-extras (Git extras)
+
 ### JavaScript
 - http://juliepagano.com/blog/2014/05/18/javascript-debugging-for-beginners (Debugging for beginners)
 - https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/ch1.md (Scopes & Closure)

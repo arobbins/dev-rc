@@ -21,8 +21,8 @@ find . -type d -exec chmod 755 {} +
 
 # Files
 find . -type f -exec chmod 644 {} +
-```
 
+```
 ### Issue: Angular dependencies not loading
 Solution: Make sure they're in the correct order
 
@@ -619,8 +619,11 @@ mysql -u username -p database_name < file.sql
 mysqldump -u username -p database_name > file.sql
 ```
 
-## Bug Journal
-Pending the infestation...
+## Shortcuts
+### Chrome
+- Opening Dev Console: CMD + Option + J
+- Toggling console docking: CMD + Shift + D
+- Enter mobile view: CMD + Shift + M
 
 ## Resources
 

@@ -16,6 +16,9 @@ Solution: Fix permissions, and add .htaccess
 ### Issue: Migrabte DB Pro failing on media transfer
 Solution: As far as I can tell this only occurs when attempting a tranfer from localhost to remote. Pulling from another remote fixed it for me.
 
+### Issue: A Small Orange caching persisting on CSS
+Solution: ASO has a hard 15min server cache for their shared-hosting plans. Use ?nocache=1 to bypass
+
 # Directories
 find . -type d -exec chmod 755 {} +
 

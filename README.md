@@ -25,8 +25,11 @@ Solution: This has always been a permissions error for me. Make sure the correct
 ### Issue: Angular dependencies not loading
 Solution: Make sure they're in the correct order
 
-## WP Migrate DB Connection error
+## Issue: WP Migrate DB Connection error
 Solution: Try unchecking SSL verification on local site
+
+## Issue: A Small Orange can't login to wordpress backend
+Solution: Make sure PHP is 5.5 +. The bcrypt plugin inside mu-plugins needs it
 
 
 ## File Descriptions

@@ -19,19 +19,15 @@ Solution: As far as I can tell this only occurs when attempting a tranfer from l
 ### Issue: A Small Orange caching persisting on CSS
 Solution: ASO has a hard 15min server cache for their shared-hosting plans. Use ?nocache=1 to bypass
 
-# Directories
-find . -type d -exec chmod 755 {} +
+### Issue: A Small Orange 500 Internal Service Error
+Solution: This has always been a permissions error for me. Make sure the correct permissions are present. See "Correct permissions"
 
-# Files
-find . -type f -exec chmod 644 {} +
-
-```
 ### Issue: Angular dependencies not loading
 Solution: Make sure they're in the correct order
 
-### WP Migrate DB
-#### Connection error
-- Try unchecking SSL verification on local site
+## WP Migrate DB Connection error
+Solution: Try unchecking SSL verification on local site
+
 
 ## File Descriptions
 #### `.bashrc` & `.bash_profile`
@@ -596,9 +592,13 @@ define('FS_METHOD', 'direct');
 ```
 
 #### Correct permissions
-chown www-data:www-data -R *          # Let apache be owner
-find . -type d -exec chmod 755 {} \;  # Change directory permissions rwxr-xr-x
-find . -type f -exec chmod 644 {} \;  # Change file permissions rw-r--r--
+
+##### Directories
+find . -type d -exec chmod 755 {} +
+
+##### Files
+find . -type f -exec chmod 644 {} +
+
 
 ### WooCommerce
 #### API Docs http://docs.woothemes.com/wc-apidocs

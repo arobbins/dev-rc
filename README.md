@@ -79,6 +79,9 @@ Show total file size of a given dir
 #### sudo rm -rf ~/.Trash/*
 Force empty trash
 
+#### Change user password
+'passwd' and follow the promopt
+
 ## Definitions
 #### Bash
 Bash (Bourne Again SHell) is the default shell on OSX and Linux.

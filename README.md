@@ -609,6 +609,12 @@ find . -type f -exec chmod 644 {} +
 ### WooCommerce
 #### API Docs http://docs.woothemes.com/wc-apidocs
 
+## Redirects
+#### Removing date within blog posts
+``` bash
+RedirectMatch 301 /blog/([0-9]+)/([0-9]+)/(.*)$ /blog/$3
+```
+
 ## APIs
 #### Consuming a WS through curl
 curl -k -H "Accept:application/json" -H "Authorization: Basic YXJvYmJpbnNfcWE6QDhBfsdDdsskOKNaj4=" https://wsurlgoeshere.com

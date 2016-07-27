@@ -4,6 +4,9 @@ Notes
 
 ## Bugs
 
+### Issue: WordPress shows Error establishing Database connection
+Solution: Make sure you have the correct .htaccess file and that the file permissions are correct
+
 ### Issue: WordPress Media Library displays 404 error / admin-ajax.php not found
 Solution: Permissions are incorrect on the wp-content folder. Temporarily changing to 777 fixed the issue.
 

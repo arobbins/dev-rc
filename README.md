@@ -59,6 +59,9 @@ The .DS_Store (Desktop Services Store) file keeps custom attributes of a folder 
 `amdconfig --od-getclocks --adapter=all`
 
 ## Unix Commands
+#### Rsync (sync) remote dir to local
+rsync -anvzP --progress --rsh=ssh ostromcr@67.20.89.138:~/mail/ ./mail
+
 #### sudo killall Finder
 Restart the Finder
 

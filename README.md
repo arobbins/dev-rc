@@ -139,6 +139,9 @@ http://ss64.com/bash/ulimit.html
 
 
 ## How tos
+#### Reset WordPress password via MySQL
+UPDATE `wp_users` SET `user_pass`= MD5('yourpass') WHERE `user_login`='arobbins';
+
 #### Markdown formatting
 [Markdown Basics](http://markdown-guide.readthedocs.org/en/latest/basics.html)
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lines)

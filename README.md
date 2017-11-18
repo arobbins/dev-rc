@@ -428,6 +428,14 @@ Make sure to put the binary in /usr/local/bin. The binary can be found in /Appli
 `git branch -a`
 
 ## Apache
+
+#### Restore configuration after Mac OS updates
+```
+sudo cp /etc/apache2/httpd.conf~previous /etc/apache2/httpd.confcopy
+sudo cp /etc/apache2/extra/httpd-vhosts.conf~previous /etc/apache2/extra/httpd-vhosts.conf
+sudo apachectl restart
+```
+
 #### Test the current configuration of Apache
 
 The below two commands do the same thing. More resources here: http://httpd.apache.org/docs/2.2/programs/apachectl.html
